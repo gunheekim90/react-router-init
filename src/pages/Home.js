@@ -1,13 +1,20 @@
 import React from 'react';
 import Menu from 'components/Header/Menu'
+import Footer from 'components/Footer/Footer'
 
+
+//Input card data list up
 const Home = () => {
     return (
-        <div>
+        <div style={{height : "900px"}}>
         	<Menu/>
-            <h2>
-                홈
-            </h2>
+        	<div style={{backgroundColor : '#2d2d2d', width : '100%', height : '800px'}}>
+        		<h2 style={{color : '#fff'}}>
+	                홈
+	            </h2>
+        	</div>
+        	<Footer/>
+            
         </div>
     );
 };

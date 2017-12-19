@@ -13,7 +13,7 @@ const Posts = ({match}) => {
 
     return (
         <div>
-        <Menu/>
+         <Menu/>
            <h2>Post List</h2> 
            <ul>
                 <li><Link to={`${match.url}/1`}>Post #1</Link></li>
