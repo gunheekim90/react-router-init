@@ -2,19 +2,23 @@ import React from 'react';
 import Menu from 'components/Header/Menu'
 import Footer from 'components/Footer/Footer'
 
+import styles from './pageStyle.scss';
+import classNames from 'classnames/bind';
+
+const cx = classNames.bind(styles);
+
 
 //Input card data list up
 const Home = () => {
     return (
-        <div style={{height : "900px"}}>
+        <div className={cx('HomeBody')}>
         	<Menu/>
-        	<div style={{backgroundColor : '#2d2d2d', width : '100%', height : '800px'}}>
+        	<div className={cx('HomeInnerDiv')}>
         		<h2 style={{color : '#fff'}}>
 	                홈
 	            </h2>
         	</div>
         	<Footer/>
-            
         </div>
     );
 };

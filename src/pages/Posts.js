@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import { Post } from 'pages'; 
 import Menu from 'components/Header/Menu'
-
+import Footer from 'components/Footer/Footer'
 /*
 
 Link 는 라우터를 가리킨다
@@ -23,6 +23,7 @@ const Posts = ({match}) => {
            </ul>
            <Route exact path={match.url} render={()=>(<h3>Please select any post</h3>)}/>
            <Route path={`${match.url}/:id`} component={Post}/>
+           <Footer/>
         </div>
     );
 };
