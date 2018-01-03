@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { Home, About, Posts } from 'pages';
+import { Home, About, Posts } from '../pages';
 
 /*
 먼저, App 컴포넌트를 만들어주세요. 어떤 주소로왔을때 무엇을 보여줄 지, 나중에 여기서 정의를 하도록 하겠습니다. 지금은 일단 비어있는 컴포넌트를 만드세요.

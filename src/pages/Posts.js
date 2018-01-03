@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import { Post } from 'pages'; 
-import Menu from 'components/Header/Menu'
-import Footer from 'components/Footer/Footer'
+import Menu from '../components/Header/Menu'
+import Footer from '../components/Footer/Footer'
 /*
 
 Link 는 라우터를 가리킨다

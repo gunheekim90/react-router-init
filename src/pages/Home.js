@@ -1,6 +1,6 @@
 import React from 'react';
-import Menu from 'components/Header/Menu'
-import Footer from 'components/Footer/Footer'
+import Menu from '../components/Header/Menu'
+import Footer from '../components/Footer/Footer'
 
 import styles from './pageStyle.scss';
 import classNames from 'classnames/bind';
